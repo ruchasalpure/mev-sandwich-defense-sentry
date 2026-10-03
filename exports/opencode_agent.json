@@ -1,8 +1,0 @@
-{
-  "agent_id": "mev-sandwich-defense-sentry",
-  "protocol": "opencode/v1",
-  "capabilities": [
-    "autonomous",
-    "governed"
-  ]
-}
