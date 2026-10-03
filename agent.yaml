@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "mev-sandwich-defense-sentry"
+version: "1.0.0"
+category: "finance"
+author: "Rucha Salpure"
+description: "Inspects decentralized exchange transaction payloads in the public mempool to synthesize private RPC routing, dynamic slippage caps, and commit-reveal defenses"
+capabilities:
+  - "mempool-frontrun-detection"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "mempool-frontrun-detection"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true
